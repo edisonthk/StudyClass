@@ -21,6 +21,7 @@
 		41C0D3F118F9512E00F2CED8 /* TestForClassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C0D3F018F9512E00F2CED8 /* TestForClassTests.m */; };
 		41C0D40B18F95AA900F2CED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C0D40A18F95AA900F2CED8 /* Main.storyboard */; };
 		41C0D40E18F95C7C00F2CED8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C0D40D18F95C7C00F2CED8 /* ViewController.m */; };
+		41C0D41118F9801E00F2CED8 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C0D41018F9801E00F2CED8 /* MyClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		41C0D40A18F95AA900F2CED8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		41C0D40C18F95C7C00F2CED8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		41C0D40D18F95C7C00F2CED8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		41C0D40F18F9801E00F2CED8 /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		41C0D41018F9801E00F2CED8 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				41C0D3DB18F9512D00F2CED8 /* AppDelegate.m */,
 				41C0D3DD18F9512D00F2CED8 /* Images.xcassets */,
 				41C0D3D218F9512D00F2CED8 /* Supporting Files */,
+				41C0D40F18F9801E00F2CED8 /* MyClass.h */,
+				41C0D41018F9801E00F2CED8 /* MyClass.m */,
 			);
 			path = TestForClass;
 			sourceTree = "<group>";
@@ -248,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C0D41118F9801E00F2CED8 /* MyClass.m in Sources */,
 				41C0D40E18F95C7C00F2CED8 /* ViewController.m in Sources */,
 				41C0D3DC18F9512D00F2CED8 /* AppDelegate.m in Sources */,
 				41C0D3D818F9512D00F2CED8 /* main.m in Sources */,

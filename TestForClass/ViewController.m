@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MyClass.h"
 
 @interface ViewController ()
 
@@ -37,7 +38,18 @@
 
 - (IBAction)sayHello
 {
-    NSLog(@"hello");
+    // static
+    [MyClass myStaticMethod:true key2:@"hello"];
+    
+    // MyClass obj = new MyClass();
+    MyClass* obj = [[MyClass alloc]init];
+    
+    // obj.myObjectMethod(true,"Second Param");
+    // "key2" refer to second parameter key and second parameter value is "Second param"
+    [obj myObjectMethod:true key2:@"Second param"];
+    
+    // %i for boolean and %@ for NSString
+    NSLog(@"%@  %@", obj.obj1?@"YES":@"NO", obj.obj2);
 }
 
 /*
