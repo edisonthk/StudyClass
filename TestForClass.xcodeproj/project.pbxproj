@@ -19,6 +19,7 @@
 		41C0D3E718F9512E00F2CED8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C0D3CF18F9512D00F2CED8 /* UIKit.framework */; };
 		41C0D3EF18F9512E00F2CED8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41C0D3ED18F9512E00F2CED8 /* InfoPlist.strings */; };
 		41C0D3F118F9512E00F2CED8 /* TestForClassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C0D3F018F9512E00F2CED8 /* TestForClassTests.m */; };
+		41C0D40B18F95AA900F2CED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C0D40A18F95AA900F2CED8 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		41C0D3EC18F9512E00F2CED8 /* TestForClassTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestForClassTests-Info.plist"; sourceTree = "<group>"; };
 		41C0D3EE18F9512E00F2CED8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		41C0D3F018F9512E00F2CED8 /* TestForClassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestForClassTests.m; sourceTree = "<group>"; };
+		41C0D40A18F95AA900F2CED8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = TestForClass/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		41C0D3BF18F9512D00F2CED8 = {
 			isa = PBXGroup;
 			children = (
+				41C0D40A18F95AA900F2CED8 /* Main.storyboard */,
 				41C0D3D118F9512D00F2CED8 /* TestForClass */,
 				41C0D3EA18F9512E00F2CED8 /* TestForClassTests */,
 				41C0D3CA18F9512D00F2CED8 /* Frameworks */,
@@ -219,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C0D40B18F95AA900F2CED8 /* Main.storyboard in Resources */,
 				41C0D3D618F9512D00F2CED8 /* InfoPlist.strings in Resources */,
 				41C0D3DE18F9512D00F2CED8 /* Images.xcassets in Resources */,
 			);
@@ -439,6 +443,7 @@
 				41C0D3F618F9512E00F2CED8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41C0D3F718F9512E00F2CED8 /* Build configuration list for PBXNativeTarget "TestForClassTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +452,7 @@
 				41C0D3F918F9512E00F2CED8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
