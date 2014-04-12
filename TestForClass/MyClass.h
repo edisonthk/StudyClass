@@ -7,15 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "JavaInterface.h"
 
-// class MyClass extends NSObject
-@interface MyClass : NSObject{
-    bool obj1;
-    NSString* obj2;
-}
+// class MyClass extends NSObject implement
+// in term of Objective-C, MyClass class extends NSObject and conforms to JavaInterface
+@interface MyClass : NSObject<JavaInterface>
 
-@property(nonatomic, assign)bool obj1;
-@property(nonatomic, retain)NSString* obj2;
+//
+@property bool obj1;
+@property NSString* obj2;
 
 + (void)myStaticMethod:(bool) param1 key2:(NSString*)param2;
 

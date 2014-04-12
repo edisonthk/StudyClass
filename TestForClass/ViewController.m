@@ -30,11 +30,13 @@
     // Do any additional setup after loading the view.
 }
 
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 - (IBAction)sayHello
 {
@@ -50,7 +52,11 @@
     
     // %i for boolean and %@ for NSString
     NSLog(@"%@  %@", obj.obj1?@"YES":@"NO", obj.obj2);
+    
+    [obj setValue:false andParam2:@"parameter2_value"];
+    
 }
+
 
 /*
 #pragma mark - Navigation

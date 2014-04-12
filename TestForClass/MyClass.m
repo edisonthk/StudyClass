@@ -40,5 +40,10 @@
     return self.obj1;
 }
 
+// conforms to that protocol
+-(void) setValue: (bool)param1 andParam2: (NSString*)param2{
+    NSLog(@"This is interface method, result = %@, %@", param1?@"TRUE":@"FALSE", param2);
+}
+
 
 @end

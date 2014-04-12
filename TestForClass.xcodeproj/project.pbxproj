@@ -56,6 +56,7 @@
 		41C0D40D18F95C7C00F2CED8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		41C0D40F18F9801E00F2CED8 /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
 		41C0D41018F9801E00F2CED8 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
+		41C0D41218F98ECB00F2CED8 /* JavaInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JavaInterface.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +125,7 @@
 				41C0D3D218F9512D00F2CED8 /* Supporting Files */,
 				41C0D40F18F9801E00F2CED8 /* MyClass.h */,
 				41C0D41018F9801E00F2CED8 /* MyClass.m */,
+				41C0D41218F98ECB00F2CED8 /* JavaInterface.h */,
 			);
 			path = TestForClass;
 			sourceTree = "<group>";
