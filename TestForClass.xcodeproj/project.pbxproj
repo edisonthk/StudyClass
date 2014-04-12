@@ -20,6 +20,7 @@
 		41C0D3EF18F9512E00F2CED8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41C0D3ED18F9512E00F2CED8 /* InfoPlist.strings */; };
 		41C0D3F118F9512E00F2CED8 /* TestForClassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C0D3F018F9512E00F2CED8 /* TestForClassTests.m */; };
 		41C0D40B18F95AA900F2CED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C0D40A18F95AA900F2CED8 /* Main.storyboard */; };
+		41C0D40E18F95C7C00F2CED8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C0D40D18F95C7C00F2CED8 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +50,9 @@
 		41C0D3EC18F9512E00F2CED8 /* TestForClassTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestForClassTests-Info.plist"; sourceTree = "<group>"; };
 		41C0D3EE18F9512E00F2CED8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		41C0D3F018F9512E00F2CED8 /* TestForClassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestForClassTests.m; sourceTree = "<group>"; };
-		41C0D40A18F95AA900F2CED8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = TestForClass/Main.storyboard; sourceTree = "<group>"; };
+		41C0D40A18F95AA900F2CED8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		41C0D40C18F95C7C00F2CED8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41C0D40D18F95C7C00F2CED8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +82,6 @@
 		41C0D3BF18F9512D00F2CED8 = {
 			isa = PBXGroup;
 			children = (
-				41C0D40A18F95AA900F2CED8 /* Main.storyboard */,
 				41C0D3D118F9512D00F2CED8 /* TestForClass */,
 				41C0D3EA18F9512E00F2CED8 /* TestForClassTests */,
 				41C0D3CA18F9512D00F2CED8 /* Frameworks */,
@@ -110,6 +112,9 @@
 		41C0D3D118F9512D00F2CED8 /* TestForClass */ = {
 			isa = PBXGroup;
 			children = (
+				41C0D40A18F95AA900F2CED8 /* Main.storyboard */,
+				41C0D40C18F95C7C00F2CED8 /* ViewController.h */,
+				41C0D40D18F95C7C00F2CED8 /* ViewController.m */,
 				41C0D3DA18F9512D00F2CED8 /* AppDelegate.h */,
 				41C0D3DB18F9512D00F2CED8 /* AppDelegate.m */,
 				41C0D3DD18F9512D00F2CED8 /* Images.xcassets */,
@@ -243,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C0D40E18F95C7C00F2CED8 /* ViewController.m in Sources */,
 				41C0D3DC18F9512D00F2CED8 /* AppDelegate.m in Sources */,
 				41C0D3D818F9512D00F2CED8 /* main.m in Sources */,
 			);
